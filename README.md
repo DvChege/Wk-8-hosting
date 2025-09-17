@@ -1,17 +1,9 @@
 
 # 🌐 Acme Studio — Modern Multipage Website  
 
-![Website Preview](images/preview.png) <!-- Replace with a wide homepage screenshot -->
 
-<p align="center">
-  <a href="https://dvchege.github.io/Wk-8-hosting/"><b>🌍 Live Demo</b></a> • 
-  <a href="#-features">✨ Features</a> • 
-  <a href="#-screenshots">📸 Screenshots</a> • 
-  <a href="#-tech-stack">🛠️ Tech Stack</a> • 
-  <a href="#-future-enhancements">🔮 Future Enhancements</a>
-</p>
 
----
+
 
 ## ✨ Features  
 
@@ -25,24 +17,7 @@
 
 ---
 
-## 📸 Screenshots  
 
-### 🏠 Home  
-![Home Preview](images/home-preview.png)  
-
-### 👤 About  
-![About Preview](images/about-preview.png)  
-
-### ⚡ Services  
-![Services Preview](images/services-preview.png)  
-
-### 🖼️ Gallery  
-![Gallery Preview](images/gallery-preview.png)  
-
-### 📩 Contact  
-![Contact Preview](images/contact-preview.png)  
-
----
 
 ## 📂 Project Structure  
 
