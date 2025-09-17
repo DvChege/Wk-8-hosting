@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Acme Studio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <div class="logo">Acme<span>Studio</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="burger"><span></span><span></span><span></span></div>
+    </nav>
+  </header>
+
+  <main class="gallery-page">
+    <section class="gallery-header animate-fade-up">
+      <h2 class="section-title">Our Creative Showcase</h2>
+      <p>Explore a selection of our favorite projects and visual experiments.</p>
+    </section>
+
+    <section class="gallery-grid-wrapper">
+      <div class="gallery-grid">
+        <button class="gallery-item animate-fade-up" data-src="images/architecture.jpg">
+          <img src="images/architecture.jpg" alt="Architecture project">
+          <span>Architecture</span>
+        </button>
+        <button class="gallery-item animate-fade-up" data-src="images/forest.jpg">
+          <img src="images/forest.jpg" alt="Forest project">
+          <span>Forest</span>
+        </button>
+        <button class="gallery-item animate-fade-up" data-src="images/city.jpg">
+          <img src="images/city.jpg" alt="City project">
+          <span>City</span>
+        </button>
+        <button class="gallery-item animate-fade-up" data-src="images/landscape.jpg">
+          <img src="images/landscape-thumb.jpg" alt="Landscape project">
+          <span>Tech</span>
+        </button>
+        <button class="gallery-item animate-fade-up" data-src="images/nature.jpg">
+          <img src="images/forest.jpg" alt="Nature project">
+          <span>Nature</span>
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 Acme Studio. Crafted with passion ✨.</p>
+  </footer>
+
+  <!-- Lightbox -->
+  <div id="lightbox">
+    <span class="close">&times;</span>
+    <img id="lightbox-img" alt="">
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

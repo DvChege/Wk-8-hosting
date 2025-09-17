@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acme Studio | Creative Agency</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <div class="logo">Acme<span>Studio</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="burger"><span></span><span></span><span></span></div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content animate-fade-up">
+      <h1>We Design <span>Experiences</span></h1>
+      <p>Creative solutions that bring your vision to life.</p>
+      <a href="services.html" class="btn-primary">Explore Services</a>
+    </div>
+  </section>
+
+  <section class="services-section">
+    <h2 class="section-title animate-fade-up">Our Expertise</h2>
+    <div class="card-grid">
+      <div class="card animate-fade-up">
+        <h3>Brand Identity</h3>
+        <p>Logos, colors, and visuals that speak your story.</p>
+      </div>
+      <div class="card animate-fade-up">
+        <h3>Web Design</h3>
+        <p>Responsive and modern websites tailored for you.</p>
+      </div>
+      <div class="card animate-fade-up">
+        <h3>Marketing</h3>
+        <p>Creative campaigns that connect with your audience.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="work-section">
+    <h2 class="section-title animate-fade-up">Featured Projects</h2>
+    <div class="gallery-grid">
+      <button class="gallery-item animate-fade-up" data-src="images/architecture.jpg">
+        <img src="images/architecture.jpg" alt="Architecture">
+        <span>Architecture</span>
+      </button>
+      <button class="gallery-item animate-fade-up" data-src="images/forest.jpg">
+        <img src="images/forest.jpg" alt="Forest">
+        <span>Forest</span>
+      </button>
+      <button class="gallery-item animate-fade-up" data-src="images/city.jpg">
+        <img src="images/city.jpg" alt="City">
+        <span>City</span>
+      </button>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>© 2025 Acme Studio. Crafted with passion ✨.</p>
+  </footer>
+
+  <div id="lightbox">
+    <span class="close">&times;</span>
+    <img id="lightbox-img" alt="">
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

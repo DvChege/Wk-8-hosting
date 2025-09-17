@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Acme Studio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <div class="logo">Acme<span>Studio</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <div class="burger"><span></span><span></span><span></span></div>
+    </nav>
+  </header>
+
+  <main class="contact-page">
+    <section class="contact-wrapper">
+      <!-- Contact Info -->
+      <div class="contact-info animate-fade-up">
+        <h2>Let’s Work Together 🤝</h2>
+        <p>We’d love to hear about your project, idea, or collaboration.  
+        Fill out the form, and we’ll get back to you as soon as possible.</p>
+
+        <div class="info-item">
+          <h4>Email</h4>
+          <p><a href="mailto:acmestudio@gmail.com">acmestudio@gmail.com</a></p>
+        </div>
+        <div class="info-item">
+          <h4>Phone</h4>
+          <p><a href="tel:+254741571986">+254741571986</a></p>
+        </div>
+        <div class="info-item">
+          <h4>Location</h4>
+          <p>Tom Mboya Street,Nairobi Kenya</p>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <form class="contact-form animate-fade-up" id="contactForm">
+        <div class="form-group">
+          <input type="text" id="name" required>
+          <label for="name">Your Name</label>
+        </div>
+        <div class="form-group">
+          <input type="email" id="email" required>
+          <label for="email">Your Email</label>
+        </div>
+        <div class="form-group">
+          <textarea id="message" rows="5" required></textarea>
+          <label for="message">Message</label>
+        </div>
+        <button type="submit" class="btn-submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 Acme Studio. Crafted with passion ✨.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
