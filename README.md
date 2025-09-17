@@ -99,4 +99,4 @@ Developed  by **[DvChege](https://github.com/dvchege)**
 </p>
 
 
-Would you like me to also **design a single composite banner image** (showing all 5 pages side by side in device mockups) so your README header looks like a professional portfolio showcase?
+
